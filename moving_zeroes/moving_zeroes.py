@@ -1,11 +1,12 @@
-'''
-Input: a List of integers
-Returns: a List of integers
-'''
-def moving_zeroes(arr):
-    # Your code here
 
-    pass
+def moving_zeroes(arr):
+
+    '''Input: a List of integers
+    Returns: a List of integers
+    '''
+    
+    arr.sort(key=lambda value: value == 0)
+    return arr
 
 
 if __name__ == '__main__':
