@@ -4,12 +4,19 @@ def product_of_all_other_numbers(arr):
     '''Input: a List of integers
     Returns: a List of integers
     '''
-
+    # begin with a base result
     result = 1
+
+    # iterate through the array 
     for i in arr:
+
+        # multiply each value in the array by each other value in array
         result = result * i 
 
+    # subtract the value at that index for each value in array
     arr = [int(result/i) for i in arr]
+
+    # return array
     return arr 
 
     

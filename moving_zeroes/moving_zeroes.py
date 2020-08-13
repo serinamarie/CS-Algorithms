@@ -5,7 +5,9 @@ def moving_zeroes(arr):
     Returns: a List of integers
     '''
     
+    # sort the array, putting 0s at the end
     arr.sort(key=lambda value: value == 0)
+
     return arr
 
 

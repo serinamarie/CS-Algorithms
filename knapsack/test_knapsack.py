@@ -1,7 +1,9 @@
 import sys
 import unittest
 from collections import namedtuple
-from knapsack import knapsack_solver
+from knapsack import knapsack_
+
+
 
 Item = namedtuple('Item', ['index', 'size', 'value'])
 

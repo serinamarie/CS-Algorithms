@@ -3,9 +3,22 @@ Input: a List of integers as well as an integer `k` representing the size of the
 Returns: a List of integers
 '''
 def sliding_window_max(nums, k):
-    # Your code here
+    max_list = [] 
+    for i in range(len(nums) - (k-1)):
+        max_list.append(max(nums[i:i+k]))
+    return max_list
+    # max_list = []
+    # max_list.append(max(nums[i:i+k]))
 
-    pass
+# plan: how to create window that shows only three values 
+
+
+    # for range(arr.index(i),(arr.index(i))+k):
+        # find max value
+        # max_list.append(max value)
+# return max_list
+# for i in range of len(nums) - k
+#
 
 
 if __name__ == '__main__':
