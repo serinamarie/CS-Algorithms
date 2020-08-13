@@ -9,7 +9,6 @@ def single_number(arr):
 # not O(1) complexity, though
 
 
-
 if __name__ == '__main__':
     # Use the main function to test your implementation
     arr = [1, 1, 4, 4, 5, 5, 3, 3, 9, 0, 0]
